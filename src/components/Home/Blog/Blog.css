@@ -1,0 +1,18 @@
+.post-success{
+    background:linear-gradient(90deg,#07e7d1c0,#2bf1de7c,#15efffc4),url("../../../images/quote.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100;
+    height: 100%;
+    color:white;
+}
+.icons{
+    font-size:2em;
+}
+.blogBG:hover{
+    background:linear-gradient(90deg,#07e7d1c0,#2bf1de7c,#15efffc4),url("../../../images/quote.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    transition:2s;
+}

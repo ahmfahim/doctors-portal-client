@@ -1,0 +1,13 @@
+.btnStyle{
+    border:none;
+    border-radius: 0;
+    color:white;
+    font-weight: bold;
+    background: linear-gradient(90deg,#00d8b4,#18D2B3,#09ceec);
+}
+@media(max-width:767px){
+    .headerMainImg{
+        padding-left: 50px;
+        padding-right:50px;
+    }
+}

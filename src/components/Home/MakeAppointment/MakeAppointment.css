@@ -1,0 +1,23 @@
+.MakeAppointment-container{
+    background-image:linear-gradient(#3a4256f3,#3a4256f3,#3a4256f3),url('../../../images/Mask\ Group\ 4.png');
+    width:100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:170px;
+}
+.appointmentImg {
+    width:100%;
+    height:470px;
+    margin-top:-120px;
+}
+@media (max-width:999px){
+    .MakeAppointment-container{
+        height: 370px;
+    }
+    .appointmentImg {
+        width:100%;
+        height:490px;
+        margin-top:-120px;
+    }
+}
