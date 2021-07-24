@@ -11,6 +11,7 @@ const blogPost =[
         name:"Roksana Hasan",
         date: "22 Aug, 2020",
         background:"success",
+        color:"white",
         title:"Check the latest doctor in a uaar for your teeth",
         description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo. "
     },
@@ -18,6 +19,7 @@ const blogPost =[
         name: "Jenifer",
         date: "22 Aug, 2020",
         img: img3,
+        color: "gray",
         title: "Check the latest doctor in a uaar for your teeth",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo. "
     },
@@ -25,6 +27,7 @@ const blogPost =[
         name: "Rosy",
         date: "22 Aug, 2020",
         img: img2,
+        color: "gray",
         title: "Check the latest doctor in a uaar for your teeth",
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo. "
     }

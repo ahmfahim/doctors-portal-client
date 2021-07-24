@@ -1,0 +1,12 @@
+.footer-container{
+    background-image: url(../../../../images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 80px;
+}
+@media (max-width: 999px){
+    .footer-container{
+        height: 800px;
+    }
+}

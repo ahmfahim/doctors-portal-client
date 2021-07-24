@@ -1,0 +1,20 @@
+.contact-form input{
+    width: 50%;
+    outline:none;
+    border:none;
+    padding:10px;
+    margin-top:20px;
+}
+.contact-form{
+    padding-top:20px;
+}
+.textarea{
+    width: 50%;
+    border-radius:none;
+    outline:none;
+    border:none;
+    padding:10px;
+    height:180px;
+    margin-top:20px;
+    margin-bottom:20px;
+}

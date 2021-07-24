@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeaderMain.css'
-import chair from '../../../images/Mask Group 1.png'
+import chair from '../../../../images/Mask Group 1.png'
 
 const HeaderMain = () => {
     return (

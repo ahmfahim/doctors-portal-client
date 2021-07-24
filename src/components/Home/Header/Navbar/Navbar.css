@@ -1,0 +1,18 @@
+.logo{
+    color:#3A4256;
+}
+.navbar-toggler{
+    border:none;
+    outline:none;
+}
+
+@media (max-width:999px){
+    .navBG{
+        background-color: #3a4256da;
+        text-align: center;
+    }
+    .logo{
+        color:white;
+    }
+
+}

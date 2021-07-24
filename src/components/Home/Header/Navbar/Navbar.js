@@ -1,12 +1,14 @@
 import React from 'react';
+import './Navbar.css';
+import { BiMenuAltRight } from 'react-icons/bi';
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark navBG">
             <div class="container">
-                <h3 style={{ color: "#3A4256" }}>DP-Hospital</h3>
+                <h3 className="logo">DP-Hospital</h3>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <BiMenuAltRight style={{fontSize:"30px",outline:"none"}}/>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
