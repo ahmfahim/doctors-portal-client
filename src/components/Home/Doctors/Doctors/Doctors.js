@@ -4,16 +4,19 @@ import Doctor from '../Doctor/Doctor';
 
 const doctorsData = [
     {
+        id: 1,
         name: "Dr. Supro proti Ghangra",
         img: img1,
         phone: "+088-53835334"
     },
     {
+        id: 2,
         name: "Dr. Supro proti Ghangra",
         img: img1,
         phone: "+088-53835334"
     },
-    {
+    {   
+        id: 3,
         name: "Dr. Supro proti Ghangra",
         img: img1,
         phone: "+088-53835334"
@@ -29,7 +32,7 @@ const Doctors = () => {
             <div className="d-flex justify-content-center">
                 <div className="row text-center">
                     {
-                        doctorsData.map(doctor => <Doctor doctorInfo={doctor} />)
+                        doctorsData.map(doctor => <Doctor key={doctor.id} doctorInfo={doctor} />)
                     }
                 </div>
             </div>

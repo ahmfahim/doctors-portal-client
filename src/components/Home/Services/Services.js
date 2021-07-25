@@ -6,16 +6,19 @@ import ServiceDetail from '../ServiceDetail/ServiceDetail';
 
 const serviceData = [
     {
+        id: 1,
         name:'Fluoride Treatment',
         description:'Lorem ipsum dolor, sit  atque voluptatibus adipisci numquam amet. Consequuntur, mollitia minus.',
         img:fluorideImg,
     },
     {
+        id: 2,
         name: 'Cavity Filling',
         description: 'Lorem ipsum dolor, sit amet   voluptatibus adipisci numquam amet. Consequuntur, mollitia minus.',
         img: cavitiesImg,
     },
     {
+        id: 3,
         name: 'Teeth Whitening',
         description: 'Lorem ipsum dolor, sit amet necessitatibus amet. Consequuntur, mollitia minus.',
         img: teethWhiteImg,
@@ -32,7 +35,7 @@ const Services = () => {
             <div className="d-flex justify-content-center">
                 <div className="w-75 mt-5 pt-5 row">
                     {
-                        serviceData.map(service => <ServiceDetail service={service} />)
+                        serviceData.map(service => <ServiceDetail key={service.id} service={service} />)
                     }
                 </div>
             </div>

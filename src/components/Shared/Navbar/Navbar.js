@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { BiMenuAltRight } from 'react-icons/bi';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -13,22 +14,22 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-dark" aria-current="page" href="#">Home</a>
+                            <Link class="nav-link ms-5 text-dark" aria-current="page" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-dark" href="#">About</a>
+                            <Link class="nav-link ms-5 text-dark" to="/appointment">Appointment</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-dark" href="#">Dental Services</a>
+                            <Link class="nav-link ms-5 text-dark" to="/">Dental Services</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-white " aria-current="page" href="#">Reviews</a>
+                            <Link class="nav-link ms-5 text-white " aria-current="page" to="#">Reviews</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-white " href="#">Blogs</a>
+                            <Link class="nav-link ms-5 text-white " to="#">Blogs</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-5 text-white " href="#">Contact Us</a>
+                            <Link class="nav-link ms-5 text-white " to="#">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

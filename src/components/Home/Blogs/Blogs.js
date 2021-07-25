@@ -1,13 +1,13 @@
 import React from 'react';
 import './Blogs.css';
-import img1 from '../../../images/Ellipse 1.png';
 import img2 from '../../../images/Ellipse 2.png';
 import img3 from '../../../images/Ellipse 3.png';
 import Blog from '../Blog/Blog';
 
 
 const blogPost =[
-    {
+    {   
+        id:1,
         name:"Roksana Hasan",
         date: "22 Aug, 2020",
         background:"success",
@@ -16,6 +16,7 @@ const blogPost =[
         description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo. "
     },
     {
+        id: 2,
         name: "Jenifer",
         date: "22 Aug, 2020",
         img: img3,
@@ -24,6 +25,7 @@ const blogPost =[
         description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quo. "
     },
     {
+        id: 3,
         name: "Rosy",
         date: "22 Aug, 2020",
         img: img2,
@@ -43,7 +45,7 @@ const Blogs = () => {
             <div className="container d-flex justify-content-center">
                 <div className="row">
                     {
-                        blogPost.map(blog => <Blog post={blog}/>)
+                        blogPost.map(blog => <Blog key={blog.id} post={blog}/>)
                     }
                 </div>
             </div>

@@ -1,0 +1,7 @@
+.booking-Card-Container{
+    box-shadow: 1px 1px 5px rgba(201, 201, 201, 0.753);
+    padding:10px;
+}
+.bookBtn{
+    font-size: 12px;
+}

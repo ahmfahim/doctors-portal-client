@@ -51,8 +51,8 @@ const FooterBody = () => {
                     <h6 className="mb-5" style={{ color: "#16D1C0" }}>Our Address</h6>
                     <div className="text-secondary">
                         <p>Bogura-7983 road, Thonthonia</p>
-                        <div className="social-icons" style={{fontSize:"30px"}}>
-                            <FaFacebook className="text-primary m-3"/><FcGoogle className="m-3"/><AiFillTwitterCircle className="m-3" style={{color:"cyan"}}/>
+                        <div className="social-icons" style={{ fontSize: "40px", color:"#16D1C0"}}>
+                            <FaFacebook className="m-3" style={{ border: "1px solid #16D1C0", borderRadius: "100%", padding: "2px" }} /><FcGoogle className="m-3" style={{ border: "1px solid #16D1C0", borderRadius: "100%", padding: "2px" }} /><AiFillTwitterCircle className="m-3" style={{ border: "1px solid #16D1C0", borderRadius: "100%", padding: "2px" }}/>
                         </div>
                         <p className="mt-5">Call Now</p>
                         <button className="btn btnStyle">+088-382394348</button>

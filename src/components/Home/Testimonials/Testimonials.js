@@ -7,19 +7,22 @@ import "./Testimonials.css";
 import quotes from "../../../images/quote.png";
 
 const testimonialData = [
-    {
+    {   
+        id: 1,
         description:" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime hic adipisci molestiae nulla nesciunt dignissimos odit doloribus delectus debitis minus! ",
         name: "Winson Herry",
         address: "Dhaka",
         imgUrl: winsonImg
     },
     {
+        id: 2,
         description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime hic adipisci molestiae nulla nesciunt dignissimos odit doloribus delectus debitis minus! ",
         name: "Sara",
         address: "Rongpur",
         imgUrl: SaraImg
     },
     {
+        id: 3,
         description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime hic adipisci molestiae nulla nesciunt dignissimos odit doloribus delectus debitis minus! ",
         name: "Sarika",
         address: "Bogura",
@@ -44,7 +47,7 @@ const Testimonials = () => {
             <div className="d-flex justify-content-center">
                 <div className="row">
                     {
-                        testimonialData.map(testimonial => <Testimonial testimonialInfo={testimonial} />)
+                        testimonialData.map(testimonial => <Testimonial key={testimonial.id} testimonialInfo={testimonial} />)
                     }
                 </div>
             </div>
