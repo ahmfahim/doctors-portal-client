@@ -1,0 +1,27 @@
+.dashboard-container{
+    background-color: #1fe28718;
+    height:100vh;
+}
+.DashboardCalender{
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+@media (max-width:999px){
+    .DashboardCalender{
+        background-color: white;
+        height: 60vh;
+        width: 80%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .appointmentBody{
+        width: 80%;
+    }
+    .dashboard-container{
+        background-color: #1fe28718;
+        height:220vh;
+    }
+}

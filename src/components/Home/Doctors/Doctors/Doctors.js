@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img1 from '../../../../images/5790-removebg.png';
 import Doctor from '../Doctor/Doctor';
 
@@ -24,6 +24,12 @@ const doctorsData = [
 ]
 
 const Doctors = () => {
+    const [doctors, setDoctors] = useState([]);
+    useEffect(() =>{
+        fetch('http://localhost:5000/doctors')
+        .then(res => res.json())
+        .then(data => setDoctors(data))
+    },[])
     return (
         <section className="container mt-5 pt-5">
             <div className="text-center mt-3 pb-5">
@@ -32,7 +38,7 @@ const Doctors = () => {
             <div className="d-flex justify-content-center">
                 <div className="row text-center">
                     {
-                        doctorsData.map(doctor => <Doctor key={doctor.id} doctorInfo={doctor} />)
+                        doctors.map(doctor => <Doctor key={doctor._id} doctorInfo={doctor} />)
                     }
                 </div>
             </div>

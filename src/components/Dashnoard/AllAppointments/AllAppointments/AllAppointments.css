@@ -1,0 +1,8 @@
+.allPatientsBody{
+    height: 70vh;
+    overflow:scroll;
+}
+.allAppointments-container{
+    background-color: #1fe28718;
+    height:100vh;
+}

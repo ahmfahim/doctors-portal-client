@@ -1,0 +1,12 @@
+.column{
+    background-color:white;
+    height:100px;
+}
+.row-body{
+    border-radius: 20px;
+}
+@media (max-width: 768px){
+    .appVisitBtn{
+        font-size: 10px;
+    }
+}
