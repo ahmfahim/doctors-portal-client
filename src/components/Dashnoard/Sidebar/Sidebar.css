@@ -3,10 +3,6 @@
     height:100vh;
     width:100%;
 }
-
-.all-link{
-    padding-top:50px;
-}
 .sidebar-link{
     text-decoration: none;
     color:white;
@@ -17,6 +13,7 @@
     color:white;
 }
 .sidebar-linkStyle{
+    list-style: none;
     padding-left: 10px;
     padding-top: 15px;
 }
